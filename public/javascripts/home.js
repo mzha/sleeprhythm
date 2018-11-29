@@ -1,10 +1,10 @@
-var links = [{label: 'Intro', bg: '#537c8e', bg2: '#2ebdbd', value: 'intro'},
+var links = [{label: 'Intro', bg: '#2ebdbd', bg2: '#537c8e', value: 'intro'},
              {label: 'Dawn', bg: '#718ec4', bg2: '#dc8998', value: 'dawn'},
              {label: 'Noon', bg: '#5389a6', bg2: '#a6dcee', value: 'noon'},
              {label: 'Dusk', bg: '#253477', bg2: '#c17a87', value: 'dusk'},
              {label: 'Midnight', bg: '#060621', bg2: '#202082', value: 'midnight'},
              {label: 'Disorders', bg: '#776477', bg2: '#a8aec1', value: 'disorders'},
-             {label: 'More', bg: '#3d494c', bg2: '#77888f', value: 'more'}];
+             {label: 'More', bg: '#77888f', bg2: '#3d494c', value: 'more'}];
 var windowHeight = window.innerHeight;
 if(windowHeight === 0) windowHeight = 238;
 var radius = windowHeight*0.5,

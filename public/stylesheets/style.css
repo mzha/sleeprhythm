@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Fauna+One');
-@import url('https://fonts.googleapis.com/css?family=Unica+One');
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
@@ -12,7 +7,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to bottom right, #537c8e, #2ebdbd);
+  background-image: linear-gradient(to bottom right, #2ebdbd, #537c8e);
   font-family: 'Titillium Web', sans-serif;
   letter-spacing: 0.1em;
   -webkit-backface-visibility: hidden;
