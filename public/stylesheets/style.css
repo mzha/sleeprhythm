@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Fauna+One');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #537c8e, #2ebdbd);
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 0.1em;
+  -webkit-backface-visibility: hidden;
+  min-height: 100vh;
+  height: 100%;
+  overflow: auto;
+}
+
+#title {
+  font-family: 'Titillium Web', sans-serif;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+}
+
+#circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  border: 2px solid #fff;
+  position: absolute;
+  left: -250px;
+}
+
+.box {
+  background: #f9f9f9;
+  color: black;
+  text-transform: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 50%;
+  padding: 10px 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  left: 50%;
+  width: 40%;
+  top: 80%;
+  border-radius: 5px;
+}
+
+.box h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+}
+
+.box p {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+.box h2 {
+  padding: 0px;
+  /* padding-top: 20px; */
+  margin: 0px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+}
+
+.box .top {
+  padding-top: 0px;
+}
